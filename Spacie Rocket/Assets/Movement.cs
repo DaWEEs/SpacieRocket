@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
@@ -17,6 +15,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
         movement.y = Input.GetAxis("Vertical"); //+1 nebo -1 podle 
+
     }
 
     void FixedUpdate()
